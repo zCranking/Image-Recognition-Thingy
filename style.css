@@ -1,0 +1,45 @@
+body{
+    font-family: 'Farro', sans-serif;
+}
+.headings{
+    font-size: 100px;
+    color: rgb(93, 114, 172);
+    animation-name: heading;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes heading {
+    0%{
+        font-size: 100px;
+    font-family: 'Farro', sans-serif;
+    color: rgb(93, 114, 172);
+    }
+    35%{
+        font-size: 110px;
+    font-family: 'Farro', sans-serif;
+    color: rgb(172, 141, 93);
+    }
+    60%{
+        font-size: 120px;
+    font-family: 'Farro', sans-serif;
+    color: rgb(93, 172, 93);
+    }
+    80%{
+        font-size: 110px;
+    font-family: 'Farro', sans-serif;
+    color: rgb(93, 172, 93);
+    }
+    100%{
+        font-size: 100px;
+    font-family: 'Farro', sans-serif;
+    color: rgb(93, 114, 172);
+    }
+}
+.thingystobeidentified{
+    color: cornflowerblue;
+    font-size: 40px;
+}
+button{
+    height: 70px;
+    width: 300px;
+}
